@@ -2,8 +2,8 @@
 
 A collection of workflows that I have created to enhance my productivity. Each workflow is crafted with a focus on simplicity, composability, and _tailorability_.
 
-> [!WIP]
-> I'm still trying to recover and organize all my workflows. This is a work in progress.   
+> [!IMPORTANT]
+> This is a work in progress. I'm still trying to recover and organize all my workflows.
 
 ## 📜 Guiding Principles
 
@@ -37,6 +37,7 @@ A collection of workflows that I have created to enhance my productivity. Each w
         * UIElementInspector for applications using the Cocoa UI framework and APIs.
         * Custom URL Schemes: Using custom URL schemes to trigger specific actions within applications that support them (eg: Rectangle)
         * Command Line Arguments: Directly interacting with CLI applications and adapting the output to the Script Filter JSON format.
+        * Accessibility API: For non-Cocoa applications that still provide proper accessibility labels and attributes, allowing workflows to interact with their UI elements.
         * Shortcuts: for applications by **lazy** developers where none of the previous methods work (e.g., Electron-based applications). The workflow will trigger the key combination for a specific shortcut.
 
 ## 💡 Inspiration
@@ -49,7 +50,7 @@ The design and functionality of these workflows are inspired by some of the best
 
 These tools have shaped my approach and have conditioned the way I look at software.
 
-## 🛠️ Workflows Included
+## 🛠️ Workflows
 
 |                                                                              |                  Implementation                  | Status                  | Comments |
 |------------------------------------------------------------------------------|:------------------------------------------------:|-------------------------| ------ |
