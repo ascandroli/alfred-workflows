@@ -47,24 +47,26 @@ The design and functionality of these workflows are inspired by some of the best
 * Humanized’s Enso Launcher: Inspired by its command-centric interface and the way it empowers users to perform tasks quickly without leaving the keyboard.
 * JetBrains’s “Double Shift” Search Everywhere Feature: Borrowed the idea of a universal, context-aware search function that allows quick access to anything within reach, enhancing the searchability and efficiency within Alfred.
 * Augment Text’s Liquids App: Influenced by its focus on text manipulation and ease of access to powerful text-editing functions.
+* Malleable Systems: Their thinking around flexible, user-adaptable systems deeply aligns with the goals of tailorability and composability in these workflows.
+
 
 These tools have shaped my approach and have conditioned the way I look at software.
 
 ## 🛠️ Workflows
 
-|                                                                              |                  Implementation                  | Status                  | Comments |
-|------------------------------------------------------------------------------|:------------------------------------------------:|-------------------------| ------ |
-| [**AWS Console**](https://github.com/ascandroli/alfred-aws-console-workflow) |             Script Filter JSON file              | production but outdated | still usable |
-| [**Menu Dump**](https://github.com/ascandroli/menudump)                                                                |             Cocoa UIElementInspector             | production but legacy   | I'll port it to swift |
-| **Play / Pause**                                                             |                     Shortcut                     | production ready        |
-| **Rectangle**                                                                | Script Filter JSON file & Scriptable Application | production ready        |
-| **Shift+Shift**                                                              |       Script Filter JSON file & Shortcuts        | production ready        |
-| **Toggle Case**                                                              |                      Swift                       | production ready        |
-| **YKman**                                                                    |             CLI wrapper (bash + jq)              | production ready        |
-| **Vault**                                                                    |             CLI wrapper (bash + jq)              | in development          |
-| **Liquid Clone**                                                             |             Universal (Text) Actions             | experimental            |
-| **.sdef Reader**                                                             |           meta Scriptable Application            | experimental            |
-| **Now Do This**                                                              |                       bash                       | ultra experimental      | Inspired by Notational Velocity |
-| **xbar**                                                                     |           meta CLI wrapper (bash + jq)           | abandoned               |                                         
+|                                                                              |                  Implementation                  | Status                         | Comments |
+|------------------------------------------------------------------------------|:------------------------------------------------:|--------------------------------| ------ |
+| [**AWS Console**](https://github.com/ascandroli/alfred-aws-console-workflow) |             Script Filter JSON file              | production but outdated        | still usable |
+| [**Menu Dump**](https://github.com/ascandroli/menudump)                      |             Cocoa UIElementInspector             | production but legacy          | I'll port it to swift |
+| **Play / Pause**                                                             |                     Shortcut                     | production ready               |
+| [**Rectangle**](https://github.com/ascandroli/alfred-rectangle)              | Script Filter JSON file & Scriptable Application | production ready               |
+| **Shift+Shift**                                                              |       Script Filter JSON file & Shortcuts        | production ready               |
+| **Toggle Case**                                                              |                      Swift                       | production ready               |
+| **YKman**                                                                    |             CLI wrapper (bash + jq)              | production ready               |
+| **Vault**                                                                    |             CLI wrapper (bash + jq)              | in development                 |
+| **Liquid Clone**                                                             |             Universal (Text) Actions             | experimental                   |
+| **.sdef Reader**                                                             |           meta Scriptable Application            | experimental                   |
+| **TaskWarrior** (aka: Now Do This)                                         |            CLI wrapper (bash + jq)               | in development (almost ready)  | Inspired by Notational Velocity |
+| **xbar**                                                                     |           meta CLI wrapper (bash + jq)           | abandoned                      |                                         
 
 For detailed instructions on how to use each workflow, refer to the individual workflow folders or files.
