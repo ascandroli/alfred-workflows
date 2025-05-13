@@ -54,19 +54,19 @@ These tools have shaped my approach and have conditioned the way I look at softw
 
 ## 🛠️ Workflows
 
-|                                                                              |                  Implementation                  | Status                         | Comments |
-|------------------------------------------------------------------------------|:------------------------------------------------:|--------------------------------| ------ |
-| [**AWS Console**](https://github.com/ascandroli/alfred-aws-console-workflow) |             Script Filter JSON file              | production but outdated        | still usable |
-| [**Menu Dump**](https://github.com/ascandroli/menudump)                      |             Cocoa UIElementInspector             | production but legacy          | I'll port it to swift |
-| **Play / Pause**                                                             |                     Shortcut                     | production ready               |
-| [**Rectangle**](https://github.com/ascandroli/alfred-rectangle)              | Script Filter JSON file & Scriptable Application | production ready               |
-| **Shift+Shift**                                                              |       Script Filter JSON file & Shortcuts        | production ready               |
-| [**Change Case**](https://github.com/ascandroli/alfred-change-case)          |                      Swift                       | production ready               |
-| **YKman**                                                                    |             CLI wrapper (bash + jq)              | production ready               |
-| **Vault**                                                                    |             CLI wrapper (bash + jq)              | in development                 |
-| **Liquid Clone**                                                             |             Universal (Text) Actions             | experimental                   |
-| **.sdef Reader**                                                             |           meta Scriptable Application            | experimental                   |
-| **TaskWarrior** (aka: Now Do This)                                           |            CLI wrapper (bash + jq)               | in development (almost ready)  | Inspired by Notational Velocity |
-| **xbar**                                                                     |           meta CLI wrapper (bash + jq)           | abandoned                      |                                         
+|                                                                               |                        Implementation                         | Status                        | Comments                      |
+|-------------------------------------------------------------------------------|:-------------------------------------------------------------:|-------------------------------|-------------------------------|
+| [**AWS Console**](https://github.com/ascandroli/alfred-aws-console-workflow)  |                    Script Filter JSON file                    | production but outdated       | still usable                  |
+| [**Menu Bar Search** (aka: Menudump)](https://github.com/ascandroli/menudump) |                     Swift + Script Filter                     | production ready                   | ported to swift              |
+| **Play / Pause**                                                              |                           Shortcut                            | production ready              |
+| [**Rectangle**](https://github.com/ascandroli/alfred-rectangle)               |       Script Filter JSON file & Scriptable Application        | production ready              |
+| **Shift+Shift**                                                               |              Script Filter JSON file & Shortcuts              | production ready              |
+| [**Change Case**](https://github.com/ascandroli/alfred-change-case)           |                             Swift                             | production ready              |
+| **YKman**                                                                     |                    CLI wrapper (bash + jq)                    | production ready              |
+| **Vault**                                                                     |                    CLI wrapper (bash + jq)                    | in development                |
+| **Liquid Clone**                                                              |                   Universal (Text) Actions                    | experimental                  |
+| **.sdef Reader**                                                              |                  meta Scriptable Application                  | experimental                  |
+| **TaskWarrior** (aka: Now Do This)                                            |                    CLI wrapper (bash + jq)                    | in development (almost ready) | Inspired by Notational Velocity |
+| **xbar**                                                                      |                 meta CLI wrapper (bash + jq)                  | abandoned                     |                                         
 
 For detailed instructions on how to use each workflow, refer to the individual workflow repos or folders.
