@@ -5,10 +5,10 @@
 # Hash-based caching script for compiling and running Swift files.
 # Avoids unnecessary recompilation and improves execution speed on repeated runs.
 #
-# # Version: 1.1.0
+# # Version: 1.2.0
 
 if [ -z "$1" ]; then
-    echo "Usage: $0 <Swift source file>"
+    echo "Usage: $0 <Swift source file> [args...]"
     exit 1
 fi
 
@@ -31,4 +31,5 @@ if [ "$CURRENT_HASH" != "$STORED_HASH" ] || [ ! -f "$EXECUTABLE" ]; then
     echo "$CURRENT_HASH" > "$HASH_FILE"
 fi
 
-"$EXECUTABLE"
+shift
+"$EXECUTABLE" "$@"
